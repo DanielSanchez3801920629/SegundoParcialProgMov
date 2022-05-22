@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backlist"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNombreIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewSalarioIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewBaseIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewPrestacionesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="@font/aldrich"
+            android:text="Prestaciones:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewPrima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewCesantias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewVacaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewSalud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewPension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewCompensacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewNominaTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar Registro Empleado" />
+    </LinearLayout>
+</LinearLayout>
